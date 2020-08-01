@@ -1,6 +1,6 @@
 package pl.k.kamil.java;
 
-public class Figure {
+public abstract class Figure {
 
     private String name;
 
@@ -9,11 +9,7 @@ public class Figure {
         this.name = name;
     }
 
-    public int getField (){
-
-        return 0;
-
-    }
+    public abstract int getField ();
 
 
     public String getName() {

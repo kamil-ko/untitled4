@@ -13,8 +13,8 @@ public class Main {
 
         Figure[] figures = {square,rectangle};
 
-        for (Figure figura : figures) {
-            System.out.println(figura.getField());
+        for (Figure figure : figures) {
+            System.out.println(figure.getField());
         }
 
 
