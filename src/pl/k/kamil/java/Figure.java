@@ -1,11 +1,11 @@
 package pl.k.kamil.java;
 
-public class Figura {
+public class Figure {
 
     private String name;
 
 
-    public Figura(String name) {
+    public Figure(String name) {
         this.name = name;
     }
 

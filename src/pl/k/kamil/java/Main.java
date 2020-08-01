@@ -11,10 +11,10 @@ public class Main {
         Rectangle rectangle  = new Rectangle("Prostokat", 5,6);
         System.out.println(rectangle.getField());
 
-        Figura[] figury = {square,rectangle};
+        Figure[] figures = {square,rectangle};
 
-        for (Figura figura : figury) {
-            System.out.println(figura.getField()); 
+        for (Figure figura : figures) {
+            System.out.println(figura.getField());
         }
 
 

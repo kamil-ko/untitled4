@@ -1,6 +1,6 @@
 package pl.k.kamil.java;
 
-public class Square extends Figura {
+public class Square extends Figure {
 
     private int a;
 
